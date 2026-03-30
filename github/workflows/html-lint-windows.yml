@@ -2,7 +2,7 @@ name : Cek Kode HTML (Windows)
 
 on :
   push :
-   branch :
+   branches :
    - main
   pull_request:
 
