@@ -12,7 +12,7 @@ jobs:
 
   steps:
     - name: Checkout Repository
-      uses: action/checkout@4
+      uses: actions/checkout@v4
 
     - name: Install HTMLHint
       run: npm install -g htmlhint
